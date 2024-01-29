@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.header-links a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+}
+
+.b1 {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pg1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.pgdiv1 {
+    flex: 1;
+    font-size: 25px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.b2 {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pg2 {
+    text-align: center;
+    padding: 50px;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.div2 h4 {
+    margin: 0;
+}
+
+.div3 {
+    flex: 1;
+    width:500px;
+}
+
+.img3 {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 50px;
+}
+
+.fdiv1, .fdiv2, .fdiv3, .fdiv4 {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.fdiv1 img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.fdiv2, .fdiv3, .fdiv4 {
+    margin-top: 20px;
+}
+
+.fdiv2 h4, .fdiv3 h4, .fdiv4 h4 {
+    margin-bottom: 10px;
+}
